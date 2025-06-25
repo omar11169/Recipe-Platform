@@ -5,6 +5,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using RecipePlatform.Model.Entity;
 
 namespace RecipePlatform.DAL.Context
 {
@@ -25,9 +26,9 @@ namespace RecipePlatform.DAL.Context
             modelBuilder.ApplyConfigurationsFromAssembly(Assembly.GetExecutingAssembly());
 
         }
-        public DbSet<Model.Entity.Category> Categories { get; set; }
-        public DbSet<Model.Entity.Recipe> Recipes { get; set; }
-        public DbSet<Model.Entity.Rating> Ratings { get; set; }
-        public DbSet<Model.Entity.User> Users { get; set; }
+        public DbSet<Category> Categories { get; set; }
+        public DbSet<Recipe> Recipes { get; set; }
+        public DbSet<Rating> Ratings { get; set; }
+        public DbSet<User> Users { get; set; }
     }
 }
