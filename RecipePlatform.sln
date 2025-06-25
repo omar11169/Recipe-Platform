@@ -5,7 +5,7 @@ VisualStudioVersion = 17.13.36105.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipePlatform.DAL", "RecipePlatform.DAL\RecipePlatform.DAL.csproj", "{18350D6B-7901-4518-997C-236AD9298F96}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipePlatform.PL", "RecipePlatform.PL\RecipePlatform.PL.csproj", "{BB005EE2-B861-4D4B-B1B5-B4809F219E17}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipePlatform.Model", "RecipePlatform.PL\RecipePlatform.Model.csproj", "{BB005EE2-B861-4D4B-B1B5-B4809F219E17}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RecipePlatform.BLL", "RecipePlatform.BLL\RecipePlatform.BLL.csproj", "{BB81A882-4CFB-42A7-98A6-70B802AAC304}"
 EndProject
