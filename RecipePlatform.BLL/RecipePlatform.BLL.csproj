@@ -8,7 +8,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RecipePlatform.DAL\RecipePlatform.DAL.csproj" />
-    <ProjectReference Include="..\RecipePlatform.PL\RecipePlatform.Model.csproj" />
   </ItemGroup>
 
 </Project>

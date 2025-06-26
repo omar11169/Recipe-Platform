@@ -15,7 +15,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\RecipePlatform.BLL\RecipePlatform.BLL.csproj" />
-    <ProjectReference Include="..\RecipePlatform.DAL\RecipePlatform.DAL.csproj" />
   </ItemGroup>
 
 </Project>
