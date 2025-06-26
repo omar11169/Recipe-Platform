@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
@@ -9,6 +10,7 @@ namespace RecipePlatform.Model.Entity
 {
     public class Recipe
     {
+        [Key]
         public int RecipesId { get; set; }
         public string Title { get; set; }
         public string Description { get; set; }
