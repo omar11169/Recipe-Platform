@@ -12,13 +12,21 @@ namespace RecipePlatform.Model.Entity
     {
         [Key]
         public int RecipesId { get; set; }
+
         public string Title { get; set; }
+
         public string Description { get; set; }
+
         public string Ingredients { get; set; }
+
         public string Instructions { get; set; }
+
         public int PrepTime { get; set; }
+
         public int CockTime { get; set; }
+
         public int Serving { get; set; }
+
         public DateTime CreatedDate { get; set; }
         public DateTime UpdateDate { get; set; }
         public bool IsActive { get; set; }
