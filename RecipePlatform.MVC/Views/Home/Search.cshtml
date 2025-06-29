@@ -1,0 +1,98 @@
+﻿<div id="browse" class="wireframe">
+    <h2>🔍 Browse/Search Page</h2>
+    <div class="layout">
+        <div class="header">
+            <div style="font-size: 24px; font-weight: bold;">🍳 RecipeHub</div>
+            <div class="nav-menu">
+                <div class="nav-item">Home</div>
+                <div class="nav-item" style="background: rgba(255, 255, 255, 0.3);">Browse</div>
+                <div class="nav-item">My Recipes</div>
+                <div class="nav-item">Profile</div>
+            </div>
+        </div>
+
+        <div class="flex-container">
+            <div class="sidebar">
+                <h3 style="margin-bottom: 20px;">Filters</h3>
+
+                <div class="form-group">
+                    <label class="form-label">Cuisine Type</label>
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                        <label><input type="checkbox"> Italian</label>
+                        <label><input type="checkbox"> Asian</label>
+                        <label><input type="checkbox"> Mexican</label>
+                        <label><input type="checkbox"> American</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Cooking Time</label>
+                    <select class="form-input">
+                        <option>Any</option>
+                        <option>Under 30 min</option>
+                        <option>30-60 min</option>
+                        <option>Over 1 hour</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label class="form-label">Difficulty</label>
+                    <div style="display: flex; flex-direction: column; gap: 5px;">
+                        <label><input type="checkbox"> Easy</label>
+                        <label><input type="checkbox"> Medium</label>
+                        <label><input type="checkbox"> Hard</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="main-content">
+                <div class="search-bar">
+                    <input type="text" class="search-input" placeholder="Search recipes..." value="pasta">
+                    <button class="btn btn-primary">Search</button>
+                </div>
+
+                <div style="display: flex; justify-content: between; align-items: center; margin: 20px 0;">
+                    <div>Showing 24 results for "pasta"</div>
+                    <select style="padding: 8px;">
+                        <option>Sort by: Relevance</option>
+                        <option>Rating</option>
+                        <option>Cook Time</option>
+                        <option>Newest</option>
+                    </select>
+                </div>
+
+                <div class="grid">
+                    <div class="card">
+                        <div class="recipe-image" style="width: 100%; height: 150px; margin-bottom: 15px;">🍝</div>
+                        <h4>Creamy Alfredo Pasta</h4>
+                        <p style="color: #7f8c8d; margin: 8px 0;">Rich and creamy pasta with parmesan</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #f39c12;">⭐ 4.7</span>
+                            <span style="color: #7f8c8d;">25 min</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="recipe-image" style="width: 100%; height: 150px; margin-bottom: 15px;">🍜</div>
+                        <h4>Spicy Arrabbiata</h4>
+                        <p style="color: #7f8c8d; margin: 8px 0;">Fiery Italian pasta with tomatoes</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #f39c12;">⭐ 4.5</span>
+                            <span style="color: #7f8c8d;">35 min</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <div class="recipe-image" style="width: 100%; height: 150px; margin-bottom: 15px;">🥘</div>
+                        <h4>Pesto Linguine</h4>
+                        <p style="color: #7f8c8d; margin: 8px 0;">Fresh basil pesto with pine nuts</p>
+                        <div style="display: flex; justify-content: space-between; align-items: center;">
+                            <span style="color: #f39c12;">⭐ 4.8</span>
+                            <span style="color: #7f8c8d;">20 min</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
